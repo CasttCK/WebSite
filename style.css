@@ -1,0 +1,46 @@
+body {
+    height: 2000px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: #272727;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listHeader{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.listOptions{
+    margin-right: 20px;
+}
+
+#nome{
+    margin-left: 20px;
+}
+
+.textoHeader{
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+}
+
+#logoGithub {
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
