@@ -40,6 +40,12 @@ header{
     font-size: large;
 }
 
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+}
+
 #logoGithub {
     max-width:50px;
     max-height:50px;
