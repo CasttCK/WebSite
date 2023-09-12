@@ -49,11 +49,6 @@ header{
     border-radius: 8px;
 }
 
-#retratoVinicius{
-    top: 0;
-    left: 0;
-}
-
 #container-imagem {
     height: 100vh;
     width: 100%;
@@ -61,4 +56,26 @@ header{
     filter: brightness(65%);
     background-size: cover;
     opacity: 0.90;
+}
+
+#imgScroll{
+    position: fixed;
+    bottom: 0;
+    right: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    transform: translatey(0px);
+    animation: move 1.1s ease-in-out infinite;
+}
+
+@keyframes move {
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-30px);}
+    100%{transform: translateY(0px);}
+}
+
+html{
+    scroll-behavior: smooth;
 }
