@@ -1,3 +1,6 @@
+// TODO
+// Arrumar um jeito para que a alteração de background funcione com o HTMLElement
+
 class HeaderPersonalizado extends HTMLElement{
     constructor(){
         super();
@@ -83,27 +86,6 @@ class HeaderPersonalizado extends HTMLElement{
                     border-radius: 8px;
                 }
             </style>
-
-
-
-                TODO -  Entender o pq o script não está funcionando, ou se é o getElementById qua não funciona.
-                        Ideia: Fazer um console log e entender o pq. Depois fazer uma pesquisa na documentação no Mozila
-
-
-
-            <script>
-                window.addEventListener("scroll", function() {
-                    const header = document.getElementById("header");
-                    const scrollPosition = window.scrollY;
-                    const triggerHeight = 100;
-                
-                    if (scrollPosition > triggerHeight) {
-                    header.style.backgroundColor = "#272727";
-                    } else {
-                    header.style.backgroundColor = "rgba(39, 39, 39, 0.521)";
-                    }
-                });
-            </script>
         `
     }
 }
